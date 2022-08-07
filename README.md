@@ -2,4 +2,4 @@
 
 - Retrieval Model
 
-- Ranking Model
+- Retrieval & Ranking Model
