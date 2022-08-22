@@ -1,21 +1,21 @@
-### HM_Recommender_System
+# HM_Recommender_System
 
 ## Retrieval Part
 
-# Pure baseline
+### Pure baseline
 -0.01850  (14767.7s)
 
 Loss function: Binary cross entropy with logits
 
 
-# Incorporate other features
+### Incorporate other features
 
 -0.01843
 
 There may be some features as bias in this case. Consider in the future exploring the impact of different features on the accuracy of result prediction.
 
 
-# Sampled softmax
+### Sampled softmax
 
 Ground true labels + negative labels  = 300:    
 -0.01983 (7932.4s) (5 epoch)
@@ -36,7 +36,7 @@ Here is another discovery: by using this method, with more epochs of training, t
 (Guess: The loss function used here is BCElosswithlogits, it can generate losses element-wise. If compared with a lot of items at one time, in this case(70K), the negative sample could be dominated. But using sampled softmax, the ratio of negative and positive samples are not as large as general softmax which results in the positive samples making a lot of sense. It's training with pertinence to grab the regulation of positive samples. Increasing the epoch may increase the negative samples in some way from a global perspective)
 
 
-# Hierarchical softmax
+### Hierarchical softmax
 -0.00451 (4632.4s)
 
 Design a two-layer tree structure. The middle nodes represent the prerequisite of the item. The leaf nodes represent the virtual item. By training the weight of each branch, optimize the process of generating final logits and accelerate the training time. For getting each item, the model must first get the middle node's probability and then get the probability of the final branch. Multiply the two likelihoods together as a final prediction.
