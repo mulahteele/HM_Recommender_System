@@ -7,7 +7,7 @@ Secondly, reconstruct a tree. using k-means to cluster the embedding of each lay
 Retrain the embedding with the new interest tree until the model converges and re-aggregate a new tree. Repeating over and over again, finally we can obtain a more accurate interest tree.
 
 
--[0.00016](https://www.kaggle.com/code/tao58lee/h-m-pure-pytorch-baseline-2-layer-tdm?scriptVersionId=103956826)
+- [0.00016](https://www.kaggle.com/code/tao58lee/h-m-pure-pytorch-baseline-2-layer-tdm?scriptVersionId=103956826)
 
 
 Exploration:
