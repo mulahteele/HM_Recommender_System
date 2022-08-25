@@ -5,7 +5,7 @@ Considering the running time of the baseline, try to use sampled softmax method 
 
 Ground true labels + negative labels  = 300: 
 
-- [0.01983]([https://link-url-here.org](https://www.kaggle.com/code/mulahli/h-m-pure-pytorch-baseline-sampled-softmax-803a85?scriptVersionId=102914281))(7932.4s) (5 epoch)
+- [0.01983](https://www.kaggle.com/code/mulahli/h-m-pure-pytorch-baseline-sampled-softmax-803a85?scriptVersionId=102914281)(7932.4s) (5 epoch)
 
 Ground true labels + negative labels  = 300:
 
