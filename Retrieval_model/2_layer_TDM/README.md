@@ -1,4 +1,4 @@
-###TDM
+### TDM
 
 Simplified the part of the TDM model in which only uses customer embedding without the attention structure. Establish a tree, and the leaf of the tree represents each item. The middle node represents the category which helps us to find the most relevant item when tracking along the branches. Train the embedding of a tree using all customer history. If one customer bought some item in his purchase history then set the leaf of the item as a positive sample. Similarly, according to the positive sample, backtrack to find its parent’s node and all ancestors which also are set as positive samples. Randomly choose one negative sample each layer. Train the model until the model converges. 
 
