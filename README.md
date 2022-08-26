@@ -8,9 +8,14 @@ The first part of the recommendation requires the recall of the all items which 
 
 Firstly, use different collaborative filtering methods to retrieve items. Afterwards, focus on the neural network adopting the two-tower structure to extract the embedding features of different items to train the model optimizing the prediction of the overall model.
 
+### Retrieval Algorithm
+
+- [Item-Item](https://github.com/mulahteele/HM_Recommender_System/tree/main/Retrieval_Algorithm/Item-Item_collaborative_filtering)
+- [User-User](https://github.com/mulahteele/HM_Recommender_System/tree/main/Retrieval_Algorithm/User-User_collaborative_filtering)
+- [Matrix_Factorization](https://github.com/mulahteele/HM_Recommender_System/tree/main/Retrieval_Algorithm/Matrix_Factorization)
 
 
-
+### Retrieval Model
 
 - [Sampled_softmax](https://github.com/mulahteele/HM_Recommender_System/tree/main/Retrieval_model/Sampled_softmax)
 - [Hierachical_softmax](https://github.com/mulahteele/HM_Recommender_System/tree/main/Retrieval_model/Hierachical_softmax)
