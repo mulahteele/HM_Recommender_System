@@ -1,5 +1,16 @@
 # HM_Recommender_System
 
+## [Project Introduction](https://www.kaggle.com/competitions/h-and-m-personalized-fashion-recommendations/overview)
+
+For this challenge you are given the purchase history of customers across time, along with supporting metadata like various features of products and users, and the images of products. Your challenge is to predict what articles each customer will purchase in the 7-day period immediately after the training data ends.
+
+### Referenced papers
+
+- [Deep Neural Networks for YouTube Recommendations](https://static.googleusercontent.com/media/research.google.com/en//pubs/archive/45530.pdf)
+- [Learning Tree-based Deep Model for Recommender Systems(TDM)](https://arxiv.org/pdf/1801.02294.pdf)
+- [Deep Interest Network for Click-Through Rate Prediction(DIN)](https://arxiv.org/pdf/1706.06978.pdf)
+
+
 2-stage recommender system
 
 ## Retrieval Part
