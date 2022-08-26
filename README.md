@@ -6,6 +6,12 @@
 
 The first part of the recommendation requires the recall of the all items which needs to select a reasonably relevant set that contains the items the user will eventually engage with. This stage will select thousands or hundreds of candidates from all millions or even tens of millions of items to simplify the problem.
 
+Firstly, use different collaborative filtering methods to retrieve items. Afterwards, focus on the neural network adopting the two-tower structure to extract the embedding features of different items to train the model optimizing the prediction of the overall model.
+
+
+
+
+
 - [Sampled_softmax](https://github.com/mulahteele/HM_Recommender_System/tree/main/Retrieval_model/Sampled_softmax)
 - [Hierachical_softmax](https://github.com/mulahteele/HM_Recommender_System/tree/main/Retrieval_model/Hierachical_softmax)
 - [2-layer TDM](https://github.com/mulahteele/HM_Recommender_System/tree/main/Retrieval_model/2_layer_TDM)
