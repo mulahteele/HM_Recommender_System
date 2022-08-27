@@ -13,7 +13,8 @@ For this challenge you are given the purchase history of customers across time, 
 - [Deep Interest Network for Click-Through Rate Prediction(DIN)](https://arxiv.org/pdf/1706.06978.pdf)
 
 
-** 2-stage recommender system
+**2-stage recommender system**
+
 
 ## Retrieval Part
 
