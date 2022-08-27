@@ -12,7 +12,6 @@ For this challenge you are given the purchase history of customers across time, 
 - [Learning Tree-based Deep Model for Recommender Systems(TDM)](https://arxiv.org/pdf/1801.02294.pdf)
 - [Deep Interest Network for Click-Through Rate Prediction(DIN)](https://arxiv.org/pdf/1706.06978.pdf)
 
-***
 
 ### 2-stage recommender system
 
